@@ -5,7 +5,7 @@
  */
 function calculateRentalCost(days) {
   if (days < 3) {
-    return 80;
+    return 40 * days;
   }
 
   if (days < 7) {
